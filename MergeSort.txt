@@ -1,0 +1,13 @@
+[16,21,11,8,12,22] -> Merge Sort
+Q1-) Write the stages of the above array according to the sort type.
+Q2-) Write the Big-O notation.
+--------------------------------------------------
+
+A1-)
+[16,21,11,8,12,22] 
+n:1 16,21,11 | 8,12,22
+n:2 16 | 21 | 11 | 8 | 12 | 22 
+n:3 11, 16, 21, 8, 12, 22
+n:4 [8,11,12,16,21,22]
+
+A2-) Big O O(n*logn)
