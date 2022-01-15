@@ -1,0 +1,18 @@
+Q1-) [22,27,16,2,18,6] -> Appliyng Insertion Sort mehod.
+Q2-) Please indicate which case the number 18 belongs to after listing the series.
+Q3-) [7,3,5,8,2,9,4,15,6] -> Write the first 4 steps according to the Insertion Sort.
+-------------------------------------------------------------
+A1-)
+n:1 [2,27,16,22,18,6]
+n:2 [2,6,16,22,18,27]
+n:3 [2,6,16,18,22,27]
+
+A2-)
+Big O = O(n^2) n=3 (Time Complexity).
+Since the number 18 is in the middle of the series, the answer is 'Average case'.
+
+A3-)
+n:1 [7,3,5,8,2,9,4,15,6]
+n:2 [2,3,5,8,7,9,4,15,6]
+n:3 [2,3,4,8,7,9,5,15,6]
+n:4 [2,3,4,5,7,9,8,15,6]
